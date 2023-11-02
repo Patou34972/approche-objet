@@ -11,7 +11,7 @@ public class TestPersonne {
         Personne pe1 = new Personne();
         pe1.nom = "ELIE DIT COSAQUE";
         pe1.prenom = "Patrice";
-        //pe1.AdressePostale = AdressePostale adr3();
+        pe1.adresse = adr3;
 
     }
 }
