@@ -1,36 +1,36 @@
 package fr.diginamic.banque.entites;
 
 public class Compte {
-    private int numCompte;
-    private int soldeCompte;
+    private String num;
+    private int solde;
 
-    public Compte(int numCompte, int soldeCompte)
+    public Compte(String num, int solde)
     {
-        this.numCompte = numCompte;
-        this.soldeCompte = numCompte;
+        this.num = num;
+        this.solde = solde;
     }
 
     @Override
     public String toString() {
         return "Compte{" +
-                "numCompte=" + numCompte +
-                ", soldeCompte=" + soldeCompte +
+                "num=" + num +
+                ", solde=" + solde +
                 '}';
     }
 
-    public int getNumCompte() {
-        return numCompte;
+    public String getNum() {
+        return num;
     }
 
-    public void setNumCompte(int numCompte) {
-        this.numCompte = numCompte;
+    public void setNum(String num) {
+        this.num = num;
     }
 
-    public int getSoldeCompte() {
-        return soldeCompte;
+    public int getSolde() {
+        return solde;
     }
 
-    public void setSoldeCompte(int soldeCompte) {
-        this.soldeCompte = soldeCompte;
+    public void setSolde(int solde) {
+        this.solde = solde;
     }
 }
