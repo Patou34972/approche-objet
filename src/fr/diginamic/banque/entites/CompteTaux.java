@@ -12,4 +12,12 @@ public class CompteTaux extends Compte{
     public String toString() {
         return super.toString() + ", taux" + taux;
     }
+
+    public double getTaux() {
+        return taux;
+    }
+
+    public void setTaux(double taux) {
+        this.taux = taux;
+    }
 }
