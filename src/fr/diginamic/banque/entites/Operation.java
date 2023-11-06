@@ -13,6 +13,7 @@ public abstract class Operation {
     @Override
     public String toString() {
         return "Operation{" +
+                "type=" +getType()+
                 "date='" + date + '\'' +
                 ", montant=" + montant +
                 '}';
